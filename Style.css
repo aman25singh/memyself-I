@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 0%;
+}
+header {
+    background: linear-gradient(to right, #a9e0e3, #ffffff);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header h1{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+header, .main, footer {
+    max-width: 1200px; /* Controls the content width */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    border-radius: 25 px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background so particles can show through */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for emphasis */
+    border-radius: 10px;
+}
+section {
+    margin:40px 0px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px; /* Space above footer */
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #a9e0e3, #ffffff);
+}
+canvas {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#map-section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 2px solid #a9e0e3;
+    border-radius: 10px;
+}
+
+    

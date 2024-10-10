@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" style="--page-reference-width: 600; --page-reference-width-px: 600px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <!-- Leaflet.js CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+<!-- Leaflet.js JavaScript -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+</head>
+<body>
+<div class="main">
+    <header>
+        <h1>Aman Singh Thakur</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <p>Welcome to my page! I'm Aman, a 26-year-old with a passion for technology and a curiosity that spans various fields. I hold a bachelor's degree in Electronic & Communication Engineering and a master's in Computer Science. While I'm deeply interested in technology, I also have a strong fascination with history. Yes, they're completely different fields, but that's just how my mind works. I explore whatever sparks my curiosity. Here, you'll find my thoughts, experiences, and work. I hope you enjoy reading and learning more about me."</p>
+    </section>
+
+    <section>
+        <h2>My Work</h2>
+        <p>Here are some of my projects: [Brief descriptions of your work or links to your projects].</p>
+    </section>
+    <section id="map-section">
+      <h2>Places I've Visited</h2>
+      <div id="map" style="height: 500px"></div>
+    </section>
+    <section>
+        <canvas id="myCanvas" width="600" height="400"></canvas>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aman Singh Thakur. All rights reserved.</p>
+    </footer>
+</div>
+<script src="nodes.js"></script>
+<script src="map.js"></script>
+</body>
+</html>
